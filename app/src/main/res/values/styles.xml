@@ -19,6 +19,31 @@
         <item name="colorPrimary">@color/primary_color</item>
         <item name="colorPrimaryDark">@color/primary_dark_color</item>
     </style>
+    <style name="NumbersTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#FD8E09</item>
+        <item name="colorPrimaryDark">#FD8E09</item>
+    </style>
+    <style name="FamilyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#379237</item>
+        <item name="colorPrimaryDark">#379237</item>
+    </style>
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#A8A19E</item>
+    </style>
+
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+    </style>
+    <style name="ColorsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#8800A0</item>
+        <item name="colorPrimaryDark">#8800A0</item>
+    </style>
+    <style name="PhrasesTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#16AFCA</item>
+        <item name="colorPrimaryDark">#16AFCA</item>
+    </style>
 
     <!-- Style for a category of vocabulary words -->
     <style name="CategoryStyle">
