@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/container"
+    android:minHeight="@dimen/list_item_height"
+    >
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:id="@+id/image"
+        android:background="@color/tan_background"
+        android:contentDescription="@string/todo" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="88dp"
+        android:id="@+id/text_container"
+        android:paddingStart="16dp"
+        tools:ignore="RtlSymmetry">
+        <TextView
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:id="@+id/miwok_text_view"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            tools:text="lutti"
+            tools:ignore="NestedWeights" />
+        <TextView
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:id="@+id/default_text_view"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            tools:text="one"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id = "@+id/play"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/baseline_play_arrow_white_24"
+            android:contentDescription="@string/todo" />
+    </RelativeLayout>
+</LinearLayout>
